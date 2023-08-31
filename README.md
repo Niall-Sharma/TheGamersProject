@@ -4,7 +4,7 @@ To build the game onto your phone, download the app Unity Remote 5.
 1. Plug your phone into your computer with the app running.
 2. Make sure you have the IOS package installed onto your computer.
 3. In the Unity editor: Go to "File", "Build Settings", click on IOS, and click "Switch Platform".
-4. 6. Go to "Edit", "Project Settings", "Editor", and select "any IOS Device" in the dropdown menu. 
+4. Go to "Edit", "Project Settings", "Editor", and select "any IOS Device" in the dropdown menu. 
 5. At the top of the Unity editor hit the play button and check your phone.
 
 # How To Build Game Onto Android Device:
