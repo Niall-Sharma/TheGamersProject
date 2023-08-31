@@ -1,7 +1,3 @@
-# TheGamersProject
-
-This is the read me for the mobile game created for Advanced Software Development. 
-
 # How To Build Game Onto IOS device:
 
 To build the game onto your phone, download the app Unity Remote 5. 
