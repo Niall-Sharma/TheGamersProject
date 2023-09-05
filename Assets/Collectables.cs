@@ -5,7 +5,7 @@ using UnityEngine;
 public class Collectables : MonoBehaviour
 {
   //  public Object thisObject;
-    public Boxcollider2D bc; //the hitbox of the collectible
+    public BoxCollider2D bc; //the hitbox of the collectible
 
 // private void Awake()
 // {
