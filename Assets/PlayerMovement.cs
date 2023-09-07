@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        coinCounter = 0;
     }
 
     // Update is called once per frame
@@ -24,4 +25,5 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce);
         }
     }
+
 }
