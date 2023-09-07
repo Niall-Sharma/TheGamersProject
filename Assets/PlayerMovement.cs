@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        coinCounter = 0;
     }
 
     // Update is called once per frame
@@ -31,22 +30,4 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-<<<<<<< HEAD
-=======
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground")){
-            isGrounded = true;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground")) {
-            isGrounded = false;
-        }
-
-    }
-
->>>>>>> 5a63f88270587f713658736db30bf59a8af48c7e
 }
