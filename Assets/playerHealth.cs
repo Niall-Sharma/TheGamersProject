@@ -19,6 +19,10 @@ public class playerHealth : MonoBehaviour
     public void playerDie(){
         Destroy(this);
     }
+
+    public void addHealth(int x){
+        health+=x;
+    }
     // Start is called before the first frame update
     void Start()
     {
