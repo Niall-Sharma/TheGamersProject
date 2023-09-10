@@ -25,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(movement*speed*Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.Space)&&isGrounded){
             rb.AddForce(Vector2.up * jumpForce);
+            FindObjectOfType<AudioManager>().Play("Jump");
+            
         }
         
 
@@ -33,12 +35,14 @@ public class PlayerMovement : MonoBehaviour
 private void OnCollisionEnter2D(Collision2D other) {
     if(other.gameObject.CompareTag("Ground")){
         isGrounded = true;
+        FindObjectOfType<AudioManager>().Play("Fall");
     }
 }
 
 private void OnCollisionExit2D(Collision2D other) {
     if(other.gameObject.CompareTag("Ground")){
         isGrounded = false;
+        
     }
 }
 

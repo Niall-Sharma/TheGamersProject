@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.Audio;
@@ -16,11 +14,12 @@ public class AudioManager : MonoBehaviour
 
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
+
             s.source.loop = s.Loop;
         }
     }
 
-    private void Start() {
+    void Start() {
         Play("MainTheme");
     }
     // Update is called once per frame
