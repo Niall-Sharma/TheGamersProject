@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinDisplay : MonoBehavior
+public class CoinDisplay : MonoBehaviour
 {
     public CoinTracker counter;
+    
+void Start(){
 
-void Start(){}
+}
 
 void Update(){
-
+    
 }
 
 
