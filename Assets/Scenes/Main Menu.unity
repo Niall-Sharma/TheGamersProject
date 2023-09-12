@@ -851,6 +851,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285028826}
   m_CullTransparentMesh: 1
+--- !u!4 &337251717 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+  m_PrefabInstance: {fileID: 366946056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &366946056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1656641740}
+    m_Modifications:
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 57.699993
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 57.699993
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 57.699993
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 101.92901
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 46.7096
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5191.8467
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096741971804575467, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316645201416039930, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: m_Name
+      value: Game Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434436043330619313, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: sounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434436043330619313, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: sounds.Array.data[3].Name
+      value: Main menu music
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434436043330619313, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: sounds.Array.data[3].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434436043330619313, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6434436043330619313, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
+      propertyPath: sounds.Array.data[3].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 53e2601b025714334941f6acc25ea4e5, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06a3ea39e66114c74ba9c523284c119f, type: 3}
 --- !u!1 &390141714
 GameObject:
   m_ObjectHideFlags: 0
@@ -3810,6 +3904,7 @@ RectTransform:
   - {fileID: 658151502}
   - {fileID: 121194149}
   - {fileID: 1233734122}
+  - {fileID: 337251717}
   m_Father: {fileID: 223313424}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
