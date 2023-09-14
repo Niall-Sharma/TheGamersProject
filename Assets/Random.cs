@@ -24,9 +24,9 @@ public class Random : MonoBehaviour
         float boxX = land.transform.position.x;
         float boxY = land.transform.position.y;
 
-        float rando = Random.Range(-2,2);
+        
         for (int i = 0; i<10; i++) {
-            land.transform.position = new Position(land.transform.position.x + i*1000, land.transform.position.y);
+            land.transform.position = new Vector2(land.transform.position.x + i*1000, land.transform.position.y);
         }
     }
 }
