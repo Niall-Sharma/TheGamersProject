@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Random : MonoBehaviour
+public class Randomo : MonoBehaviour
 {
     public BoxCollider2D box;
     
@@ -10,7 +10,9 @@ public class Random : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Move();
+        Rando();
+
+
     }
 
     // Update is called once per frame
@@ -27,8 +29,15 @@ public class Random : MonoBehaviour
 
     }
 
+    void Rando(){
+        for (int i = 0; i<3; i++) {
+            transform.position = new Vector2(transform.position.x + i, Random.Range(transform.position.y-2, transform.position.y+2));
+            
+        }
+    }
+
     void Move(){
-        for (int i = 0; i<10; i++) {
+        for (int i = 0; i<3; i++) {
             transform.position = new Vector2(transform.position.x + i, transform.position.y);
         }
     }
