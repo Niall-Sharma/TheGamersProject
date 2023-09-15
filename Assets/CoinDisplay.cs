@@ -15,6 +15,7 @@ public class CoinDisplay : MonoBehaviour
 void Start(){
 
 displayNum.text = "000";
+Debug.Log(displayNum);
 n = counter.getNum();
 xholder = "000";
 }
